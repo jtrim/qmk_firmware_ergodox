@@ -47,13 +47,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         MO(MDIA), LGUI(LALT(KC_LCTL)), KC_F3,  LALT(KC_LGUI),  KC_LGUI,
                                                         KC_HOME, KC_END,
                                                                 KC_PGUP,
-                                      TD(TD_CTRL_CMD), KC_LALT, KC_PGDN,
+                                      KC_LCTL, KC_LALT, KC_PGDN,
         // right hand
         MO(MDIA),     KC_7, KC_8,     KC_9,    KC_0,    KC_MINUS, KC_EQUAL,
         KC_RCBR,      KC_Y, KC_U,     KC_I,    KC_O,    KC_P,     KC_BSLS,
                       KC_H, KC_J,     KC_K,    KC_L,    KC_SCLN,  KC_QUOT,
         KC_RBRC,     KC_N, KC_M,     KC_COMM, KC_DOT,  KC_SLSH,  MT(MOD_RSFT, KC_ENT),
-                        MO(SYMB),     KC_LEFT, KC_DOWN, KC_UP,    KC_RIGHT,
+                        KC_RGUI,     KC_LEFT, KC_DOWN, KC_UP,    KC_RIGHT,
              KC_NO, KC_NO,
              KC_NO,
              KC_NO, KC_BSPC, KC_SPC
